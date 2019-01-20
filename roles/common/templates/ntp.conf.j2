@@ -1,0 +1,10 @@
+driftfile /var/lib/ntp/drift
+
+restric 127.0.0.1
+restric -6 ::1
+
+server {{ ntpserver }}
+
+includefile /etc/ntp/crypto/pwd
+
+keys /etc/ntp/keys

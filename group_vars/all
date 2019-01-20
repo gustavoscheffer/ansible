@@ -1,0 +1,4 @@
+# Variables here are applicable to all hosts groups
+
+httpd_port: 80
+ntpserver: time.google.com
